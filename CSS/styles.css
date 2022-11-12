@@ -1,0 +1,255 @@
+:root {
+    --color-primary: #212121;
+    --color-contacts: #757575;
+    --color-white: #fff;
+    --color-staff-section: #F5F4FA;
+    --color-footer: #2F303A;
+    --color-background: #F5F5F5;
+    --color-background-brend: #2F303A;
+    --color-action: #2196F3;
+    --color-action-button: #188ce8;
+    --color-logo-studio: #000000;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary);
+    font-weight: 400;
+    font-size: 16px;
+    background-color: var(--color-white);
+}
+
+ul {
+    list-style: none;
+  
+}
+
+.link {
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.link:hover {
+    color: var(--color-action);
+}
+
+.portfolio-list {
+    text-decoration: none;
+}
+
+.portfolio-text {
+    color: var(--color-contacts);
+    font-size: 16px;
+    line-height: 1.9;       
+    letter-spacing: 0.03em;   
+}
+
+.contacts {
+    color: var(--color-contacts);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contacts:hover {
+    color: var(--color-action);
+}
+
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--color-action);
+    text-decoration: none;
+}
+.logo-studio {
+    color: var(--color-logo-studio);
+}
+
+.hero-section {
+    background-color: var(--color-background-brend);
+}
+
+.hero-title {
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.button {
+    margin: 0 auto;
+    display: block;
+    color: var(--color-white);
+    background-color:var(--color-action);
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}   
+
+.button:hover,
+.button:focus {
+    background-color: var(--color-action-button);
+}
+
+.button-portfolio {
+    color: var(--color-primary);
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.button-portfolio:hover {
+    color: var(--color-white);
+    background-color: var(--color-action);
+}
+.button-portfolio:focus {
+    color: var(--color-white);
+    background-color: var(--color-action);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.goal-section {
+    
+}
+
+.goal-list {
+
+    
+}
+
+.goal-title {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.goal-text {
+    font-size: 14px;
+    line-height: 1.14;     
+    letter-spacing: 0.03em;
+    color: var(--color-contacts);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+   color: var(--color-primary);
+}
+
+
+.portfolio-section {
+    font-family: inherit;
+}
+
+.portfolio-foto {
+
+}
+
+.staff-section {
+   background-color: var(--color-staff-section);
+}
+.staff-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-primary);
+}
+
+.staff-profession {
+    font-size: 16px;
+    line-height: 1.19;   
+    letter-spacing: 0.03em;
+    color: var(--color-contacts);
+}
+
+.footer-section {
+    background-color: var(--color-footer);
+ }
+
+.logo-studio-footer {
+    color: var(--color-white);
+}
+
+.adress-title {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+}
+
+.adress-title:hover {
+    color: var(--color-action);
+}
+
+.footer-link {
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;        
+    letter-spacing: 0.03em;        
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover {
+    color: var(--color-action);
+}
+
+.portfolio-section {
+
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;      
+    letter-spacing: 0.06em;
+    color: var(--color-primary);
+}
+
